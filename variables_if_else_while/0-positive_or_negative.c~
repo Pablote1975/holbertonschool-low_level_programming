@@ -1,0 +1,22 @@
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
+/*Tarea 0 de la moneda
+/* betty style doc for function main goes there */
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	printf("%d", n);
+	if (n > 0);
+	  printf("is positive");
+	  else (n == 0);
+	printf("is zero");
+	else (n < 0);
+	printf("is negative");
+
+	    
+	return (0);
+}
