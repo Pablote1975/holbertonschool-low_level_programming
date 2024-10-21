@@ -1,0 +1,1 @@
+Iniciando medalla 1 de C
