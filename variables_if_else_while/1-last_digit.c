@@ -9,17 +9,17 @@
 */
 int main(void)
 {
-  int n, precio;
+int n, precio;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	precio = n % 10;
-	printf("Last digit of , n");
-	if (n > 5)
-	printf(" and is greater than 5\n");
-	else if (n > 6)
-	printf(" is and is less than 6 and not 0\n");
-	else
-	printf(" and is 0\n");
-	return (0);
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+precio = n % 10;
+printf("Last digit of %d is ", n);
+if (precio > 5)
+printf("%d and is greater than 5\n", precio);
+else if (precio < 6)
+printf("%d and is less than 6 and not 0\n", precio);
+else
+printf("%d and is 0\n", precio);
+return (0);
 }
