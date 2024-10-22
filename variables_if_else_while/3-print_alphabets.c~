@@ -1,0 +1,16 @@
+#include <unistd.h>
+#include <stdio.h>
+/**
+ *main - Moneda 3 de C T3
+ *Return: 0
+ */
+int main(void)
+{
+char alphabet;
+for (alphabet = "a , A"; alphabet <= "z, Z" ; alphabet++)
+{
+putchar(alphabet);
+}
+putchar('\n');
+return (0);
+}
