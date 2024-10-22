@@ -11,7 +11,7 @@
 int main(void)
 {
 int decimos;
-for (decimos = 0; decimos <= 10; decimos++)
+for (decimos = 0; decimos < 10; decimos++)
 {
 printf("%d", decimos);
 }
