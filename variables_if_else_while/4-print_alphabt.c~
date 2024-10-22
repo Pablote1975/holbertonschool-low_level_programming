@@ -4,11 +4,9 @@
  *main - Moneda 3 de C T4
  *Return: 0
  */
-
 int main(void)
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for (char alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 if (alphabet != 'q' && alphabet != 'e')
 {
