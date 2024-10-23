@@ -13,7 +13,7 @@ int main(void)
 int decimos;
 for (decimos = 0; decimos <= 10; decimos++)
 {
-putchar(decimos);
+putchar(decimos + '0');
 }
 putchar('\n');
 return (0);
