@@ -4,17 +4,17 @@
 
 /**
 *main- last digit %
-*Moneda 3 task 5
+*Moneda 2 task 6
 *Return:0
 */
 
 int main(void)
 {
-int decimos;
-for (decimos = 0; decimos <= 10; decimos++)
+char decimos;
+for (decimos = 0; decimos < 10; decimos++)
 {
-printf("%d", decimos);
+putchar("%d", decimos);
 }
-printf(\n);
+putchar("\n");
 return (0);
 }
