@@ -11,8 +11,8 @@ int hx;
 for (hx = 0; hx < 16; hx++)
 {
 if (hx < 10)
-}
-putchar(i + '0');
+{
+putchar(hx + '0');
 }
 else
 {
