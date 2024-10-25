@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
-*_islower: - Moneda 3 de C T3
-*@c: Variable desconocida
-*
+*_islower - Moneda 3 de C T3
+* @c: Variable desconocida
 *Return: 0
 */
 
