@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*main - Moneda 3 de C T1
+*print_alphabet - Moneda 3 de C T1
  *Return: 0
  */
 
