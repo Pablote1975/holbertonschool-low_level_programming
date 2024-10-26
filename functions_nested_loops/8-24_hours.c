@@ -1,5 +1,5 @@
 #include "main.h"
-#include <time.h>
+#include <unistd.h>
 /**
 *jack_bauer- Moneda 3 de C
 *: Variable desconocida
@@ -13,7 +13,7 @@ int m;
 
 for (h = 0; h < 24; h++)
 {
-for (m = 0; m < 60; m++)
+for (m = 0; m < 60 ; m++)
 {
 	  _putchar((h / 10) + '0');
 	  _putchar((h % 10) + '0');
@@ -24,8 +24,4 @@ for (m = 0; m < 60; m++)
 }
 }
 }
-
-
-jack_bauer();
-return (0);
 
