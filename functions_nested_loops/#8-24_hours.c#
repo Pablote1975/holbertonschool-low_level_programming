@@ -25,7 +25,6 @@ for (m = 0; m < 60; m++)
 }
 }
 
-
 jack_bauer();
 return (0);
 
