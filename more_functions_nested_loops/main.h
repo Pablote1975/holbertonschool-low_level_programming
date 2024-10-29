@@ -14,15 +14,15 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
-_isupper(int c);
-_isdigit(int c);
-mul(int a, int b);
-print_numbers(void);
-print_most_numbers(void);
-more_numbers(void);
-print_line(int n);
-print_diagonal(int n);
-print_square(int size);
-print_triangle(int size);
+int _isupper(int c);
+int _isdigit(int c);
+int mul(int a, int b);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
 
 
