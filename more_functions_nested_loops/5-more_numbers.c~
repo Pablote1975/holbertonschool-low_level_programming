@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ *more_numbers - Moneda 4
+ *
+ *Return:i
+ */
+
+void more_numbers(void)
+{
+int  i, k;
+for (i = 0; i < 15; i++)
+{
+for (k = 0; k <= 9; k++)
+{
+if (i >= 10)
+{
+_putchar(i / 10 + '0');
+}
+_putchar(i % 10 + '0');
+}
+_putchar('\n');
+}}
