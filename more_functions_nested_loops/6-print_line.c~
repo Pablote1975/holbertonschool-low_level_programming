@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ *print_line(int n) - moneda 4
+ *
+ *Return:
+ */
+
+void print_line(int n);
+{
+  int n = _
+
+    if (n <= 0;)
+      {_putchar ('\n')}
+    else 
+    while (n > 1;)
+      {_putchar ('n')}
+      
+	  }
