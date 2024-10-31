@@ -18,9 +18,10 @@ else if (f % 5 == 0)
 printf("Buzz ");
 else
 {
-printf("%d", f );
+printf("%d ", f);
 putchar(' ');
 }
+ 
 putchar('\n');
 return (0);
 }
