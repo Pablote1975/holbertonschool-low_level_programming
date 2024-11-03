@@ -18,8 +18,8 @@ s--;
 
 while (len--)
 {
-putchar(*s);
+_putchar(*s);
 s--;
 }
-putchar('\n');
+_putchar('\n');
 }
