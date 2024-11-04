@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- *rev_strig- Moneda 13
+ *rev_string- Moneda 13
  *@s:variable
  *Return:
  */
+
 void rev_string(char *s)
 {
 int len = 0;
