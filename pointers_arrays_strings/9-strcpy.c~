@@ -1,0 +1,21 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ *print_array- Moneda 13
+ *@n:variable
+ *@a:variable
+ *Return:dest
+*/
+char *_strcpy(char *dest, char *src)
+{
+  int n = 0;
+  for (; n != '\0'; n++)
+    {
+      printf("entramos al bucle");
+      dest[n] = src[n];
+      printf("%d\n", n);
+    }
+
+
+  return (dest);
+}
