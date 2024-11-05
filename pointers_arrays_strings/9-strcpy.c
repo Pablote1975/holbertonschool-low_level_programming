@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  *_strcpy- Moneda 13
- *@n:variable
  *@dest:varia
  *@src: varia
  *Return:dest
