@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_array- Moneda 13
+ *_strcpy- Moneda 13
  *@n:variable
- *
+ *@dest:varia
+ *@src: varia
  *Return:dest
 */
 char *_strcpy(char *dest, char *src)
