@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_strcat- M14
+ *_strncpy- M14
  *@dest:varia
  *@src:varia
  *@n:varia
