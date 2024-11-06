@@ -1,22 +1,27 @@
 #include "main.h"
 
 /**
- *_strcat- M14
+ *_strcat- Moneda14
  *@dest:varia
  *@src:varia
- *Return:
+ *Return:dest
  */
 char *_strcat(char *dest, char *src)
 {
-  char *n = dest;
+char *d;
+char *s;
 
-   for (*dest = 0; *dest != '\0'; dest++)
-     {
-     }  
-    for (*src = 0; *src != '\0'; src++)
-{      *dest = *src;
-  dest++;
-      }
-*dest = '\0';
- return (n);
+d = dest;
+for (; *d != '\0'; d++)
+{
+}
+s = src;
+while (*s != '\0')
+{
+*d = *s;
+d++;
+s++;
+}
+*d = '\0';
+return (dest);
 }
