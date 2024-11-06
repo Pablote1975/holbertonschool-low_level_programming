@@ -5,7 +5,7 @@
  *@dest:varia
  *@src:varia
  *@n:varia
- *Return:dest
+ *Return:destpo
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -14,5 +14,5 @@ for (l = 0; l < n && src[l] != '\0'; l++)
 dest[l] = src[l];
 for (; l < n; l++)
 dest[l] = '\0';
-return (dest); 
+return (dest);
 }
