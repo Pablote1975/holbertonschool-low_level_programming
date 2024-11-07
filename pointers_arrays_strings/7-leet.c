@@ -8,31 +8,19 @@
  */
 char *leet(char *t)
 {
-int i = 0;
-for (; t[i]; i++)
-{
-if ((t[i] >= 'a' && t[i] <= 'z') || (t[i] >= 'A' && t[i] <= 'Z'))
-{
-if (t[i] == 'a' || t[i] == 'A')
-{
-t[i] = '4';
-}
-else if (t[i] == 'e' || t[i] == 'E')
-{
-t[i] = '3';
-}
-else if (t[i] == 'o' || t[i] == 'O')
-{
-t[i] = '0';
-}
-else if (t[i] == 't' || t[i] == 'T')
-{
-t[i] = '7';
-}
-else if (t[i] == 'l' || t[i] == 'L')
-{
-t[i] = '1';
-}
+char *nums = "43071";
+ char *let = "aeotlAEOTL";
+ int i = 0;
+ int j = 0;
+ 
+ for (; t[i]; i++)
+   {
+     for (; let[j]; j++)
+       {
+	 if (t[i] == let[j])
+	   {t[i] = nums[j];
+	     break;
+	       }
 }
 }
 return (t);
