@@ -1,0 +1,25 @@
+#include "main.h"
+#include <stdlib.h>
+
+/**
+* main - print and new line
+ * @argc: lo que piden
+ * @argv: nombre del comando
+ *the atoi function is a library function used to convert a string of digits into an integer value. It's part of the stdlib.h header file.
+ *Return: numbers
+ */
+
+int main(int argc, char *argv[])
+{
+if (argc != 3)
+{
+printf("Error\n");
+return 1;
+}
+int num1 = atoi(argv[1]);
+int num2 = atoi(argv[2]);
+int res = num1 * num2;
+
+printf("%d\n", res);
+return (0);
+}
