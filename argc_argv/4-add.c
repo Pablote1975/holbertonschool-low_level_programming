@@ -21,17 +21,17 @@ return (0);
 }
 for (i = 1; i < argc; i++)
 {
-num = atoi(argv[i]);
 while (*p)
 {
-if (*p < '0' || *p > '9')
+if (!isdigit(*p))
 {
 printf("Error\n");
 return (1);
 }
 p++;
 }
-if (num == 0 && *p != '\0')
+ num = atoi(argv[i]);
+if (num <= 0)
 {
 printf("Error\n");
 return (1);
