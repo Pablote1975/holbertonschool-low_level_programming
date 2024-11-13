@@ -1,30 +1,35 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ *_strdup- Moneda 18
+ *@str: varaible
+ * variable
+ *Return: 0
+ */
 
 char *_strdup(char *str)
 {
-    char *dupli_str;
-    unsigned int i, len;
+char *dupli_str;
+unsigned int i, len;
 
-     if (str == NULL)
-        return NULL;
-     
-     len = 0;
-    while (str[len] != '\0')
-        len++;
+if (str == NULL)
+return (NULL);
 
-    dupli_str = malloc(sizeof(char) * (len + 1));
-    
-    if (dupli_str == NULL)
-        return NULL;
+len = 0;
+while (str[len] != '\0')
+len++;
 
-    for (i = 0; i < len; i++)
-    {
-        dupli_str[i] = str[i];
-    }
-    dupli_str[len] = '\0';
+dupli_str = malloc(sizeof(char) * (len + 1));
 
-    return (dupli_str);
+if (dupli_str == NULL)
+return (NULL);
+
+for (i = 0; i < len; i++)
+{
+dupli_str[i] = str[i];
+}
+dupli_str[len] = '\0';
+
+return (dupli_str);
 }
