@@ -4,21 +4,21 @@
 /**
  *alloc_grid- Moneda 18
  *
- *@widht: varaible
+ *@width: varaible
  *@height: variable
  *Return: grid
  */
 
 int **alloc_grid(int width, int height)
 {
-
-int **grid = (int **)malloc(height * sizeof(int *));
+int **grid;
 int i, j;
 
 if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
+grid = (int **)malloc(height * sizeof(int *));
 if (grid == NULL)
 {
 return (NULL);
