@@ -13,8 +13,7 @@
 char *str_concat(char *s1, char *s2)
 {
 char *result;
-size_t len1;
-size_t len2;
+size_t len1, len2, i;
 
 if (s1 == NULL)
 {
@@ -24,17 +23,29 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-len1 = strlen(s1);
-len2 = strlen(s2);
-
+while (s1[len1] != '\0')
+{
+len1++;
+}
+while (s2[len2] != '\0')
+{
+len2++;
+}
 result = (char *)malloc(len1 + len2 + 1);
 
 if (result == NULL)
 {
 return (NULL);
 }
-strcpy(result, s1);
-strcat(result, s2);
+while (*s1)
+{
+result[i++] = *s1++;
+}
+while (*s2)
+{
+result[i++] = *s2++;
+}
+result[i] = '\0';
 
 return (result);
 }
