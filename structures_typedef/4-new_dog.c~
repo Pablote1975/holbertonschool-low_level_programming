@@ -1,0 +1,28 @@
+#include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ *init_dog- Moneda 20
+ *@name: name
+ *@age: age
+ *@owner: owner
+ * variable
+ *return:
+ */
+
+dog_t *new_dog(char *name, float age, char *owner)
+{
+    dog_t *new_dog = malloc(sizeof(dog_t));
+    if (!dog) return NULL;
+
+    dog->name = strdup(name);
+    dog->owner = strdup(owner);
+    if (!dog->name || !dog->owner) {
+        free(dog->name);
+        free(dog->owner);
+        free(dog);
+        return NULL;
+    }
+    dog->age = age;
+    return dog;
+}
