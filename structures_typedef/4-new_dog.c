@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * new_dog- Moneda 20
+ **new_dog- Moneda 20
  *@name: name
  *@age: age
  *@owner: owner
@@ -15,6 +15,9 @@ int i;
 dog_t *dog = malloc(sizeof(dog_t));
 if (!dog)
 return (NULL);
+
+dog->name = malloc(25);
+dog->owner = malloc(25);
 
 for (i = 0; name[i] != '\0'; i++)
 {
