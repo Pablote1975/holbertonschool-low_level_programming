@@ -1,11 +1,11 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- **new_dog- Moneda 20
- *@name: name
- *@age: age
- *@owner: owner
- * variable
+ *free_dog- Moneda 20
+ *: name
+ *: age
+ *r: owner
+ *@d: variable
  *return:dog
  */
 
