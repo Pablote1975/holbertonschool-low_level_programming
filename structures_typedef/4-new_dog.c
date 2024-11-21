@@ -6,7 +6,7 @@
  *@age: age
  *@owner: owner
  * variable
- *return:dog
+ *Return:dog_t
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -16,11 +16,24 @@ dog_t *dog = malloc(sizeof(dog_t));
 
 if (!dog)
 return (NULL);
+
+while (name[larname] != '\0')
 {
-while (name[larname] != '\0') larname++;
-while (owner[larowner] != '\0') larowner++;
+larname++;
+}
+while (owner[larowner] != '\0')
+{
+larowner++;
+}
 dog->name = malloc(larname + 1);
 dog->owner = malloc(larowner + 1);
+
+if (!dog->name || !dog->owner)
+{
+free(dog->name);
+free(dog->owner);
+free(dog);
+return (NULL);
 }
 for (i = 0; name[i] != '\0'; i++)
 {
