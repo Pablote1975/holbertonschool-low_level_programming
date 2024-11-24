@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- *array_iterator -M21
+ *int_index -M21
  *@array: variable
  * @size: variable
  * @cmp: variable
