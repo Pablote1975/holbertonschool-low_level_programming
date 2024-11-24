@@ -1,0 +1,1 @@
+Este proyecto explora el concepto de punteros a funciones en C, una herramienta poderosa  q permite exe func dinamicamente
