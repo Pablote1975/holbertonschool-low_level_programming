@@ -1,0 +1,39 @@
+#include "3-calc.h"
+
+/**
+*op_add- suma
+ *@a: a variable
+ *@b: b variable
+ *Return: a + b
+ */
+
+int op_add(int a, int b)
+{
+return (a + b);
+}
+
+/**
+ *op_sub- resta
+ *@a: variable a
+ *@b: variable b
+ *Return: a - b
+ */
+
+int op_sub(int a, int b)
+{
+return (a - b);
+}
+
+/**
+ *op_mul- multiplicar
+ *@a: variable a
+ *@b: variable b
+ *Return: a * b
+ */
+
+
+int op_mul(int a, int b)
+{
+return (a * b);
+}
+

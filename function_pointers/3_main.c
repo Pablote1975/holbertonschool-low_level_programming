@@ -1,8 +1,9 @@
 #include "3-calc.h"
+
 /**
- * main - entry point
- * @argc: num of arguments
- * @argv: array of arguments
+ * main - M21
+ * @argc: arguments count
+ * @argv: arguments vector
  * Return: 0
  */
 
